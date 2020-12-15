@@ -31,7 +31,7 @@ import (
 const DefaultTimeout = 60 * time.Second
 
 const (
-	bufferSize    = 8192            // bufferSize sets the size of the io buffers.
+	bufferSize    = 8192 * 2        // bufferSize sets the size of the io buffers.
 	checkDuration = 2 * time.Second // checkDuration how often to check for new output.
 )
 
